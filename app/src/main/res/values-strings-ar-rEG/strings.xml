@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="currency_codes">
+    <item>د.ك</item> <!-- CAD -->
+    <item>يورو</item> <!-- EUR -->
+    <item>د.هونج كونج</item> <!-- HKD -->
+    <item>كرونة آيسلندية</item> <!-- ISK -->
+    <item>بيزو فلبيني</item> <!-- PHP -->
+    <item>كرونة دنماركية</item> <!-- DKK -->
+    <item>فورنت مجري</item> <!-- HUF -->
+    <item>كرونة تشيكية</item> <!-- CZK -->
+    <item>دولار أسترالي</item> <!-- AUD -->
+    <item>ليو روماني</item> <!-- RON -->
+    <item>كرونة سويدية</item> <!-- SEK -->
+    <item>روبية إندونيسية</item> <!-- IDR -->
+    <item>روبية هندية</item> <!-- INR -->
+    <item>ريال برازيلي</item> <!-- BRL -->
+    <item>روبل روسي</item> <!-- RUB -->
+    <item>كونا كرواتية</item> <!-- HRK -->
+    <item>ين ياباني</item> <!-- JPY -->
+    <item>بات تايلاندي</item> <!-- THB -->
+    <item>فرنك سويسري</item> <!-- CHF -->
+    <item>دولار سنغافوري</item> <!-- SGD -->
+    <item>زلوتي بولندي</item> <!-- PLN -->
+    <item>ليف بلغاري</item> <!-- BGN -->
+    <item>يوان صيني</item> <!-- CNY -->
+    <item>كرونة نرويجية</item> <!-- NOK -->
+    <item>دولار نيوزيلندي</item> <!-- NZD -->
+    <item>راند جنوب أفريقي</item> <!-- ZAR -->
+    <item>دولار أمريكي</item> <!-- USD -->
+    <item>بيزو مكسيكي</item> <!-- MXN -->
+    <item>شيكل إسرائيلي</item> <!-- ILS -->
+    <item>جنيه إسترليني</item> <!-- GBP -->
+    <item>وون كوري جنوبي</item> <!-- KRW -->
+    <item>رينغيت ماليزي</item> <!-- MYR -->
+    </string-array>
+
+    <string name="currency_convertor">تغيير العمله</string>
+    <string name="to">to</string>
+    <string name="from">From</string>
+    <string name="amount">amount</string>
+    <string name="convert">converte</string>
+</resources>
