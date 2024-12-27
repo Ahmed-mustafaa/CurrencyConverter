@@ -78,5 +78,5 @@ dependencies {
 
     // Coroutine Lifecycle Scopes
     implementation (libs.androidx.lifecycle.lifecycle.viewmodel.ktx)
-    implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
+    implementation (libs.androidx.lifecycle.runtime.ktx)
 }
