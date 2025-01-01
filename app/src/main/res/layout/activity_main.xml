@@ -48,7 +48,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilFrom"
-        style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox.Dense"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
         android:layout_width="99dp"
         android:layout_height="50dp"
         android:layout_marginEnd="16dp"
@@ -59,9 +59,9 @@
         app:layout_constraintTop_toTopOf="@+id/spFrom">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etfrom"
+            android:id="@+id/amount"
             android:layout_width="match_parent"
-            android:layout_height="37dp"
+            android:layout_height="match_parent"
             android:inputType="numberDecimal" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -110,6 +110,7 @@
 
 
     <ProgressBar
+        android:id="@+id/progress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="28dp"

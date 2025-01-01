@@ -1,11 +1,11 @@
 package ahmed.praicticing.currencyconvertor.main
 
 import ahmed.praicticing.currencyconvertor.Util.Resources
-import ahmed.praicticing.currencyconvertor.data.models.CurrencyAPI
-import ahmed.praicticing.currencyconvertor.data.models.CurrencyResponse
-import jakarta.inject.Inject
+import ahmed.praicticing.currencyconvertor.data2.CurrencyAPI
+import ahmed.praicticing.currencyconvertor.data2.CurrencyResponse
+import android.util.Log
 
-class DefaultMainRepository @Inject constructor(
+class DefaultMainRepository  (
     private val api: CurrencyAPI
 ): MainRepository
 {
@@ -16,6 +16,7 @@ class DefaultMainRepository @Inject constructor(
             if(response.isSuccessful && result!=null){
                 Resources.success(result)
             }else{
+                Log.d("Error", "getRates:Errror from THE API")
                 Resources.error(response.message())
             }
         }catch (e:Exception){

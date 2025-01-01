@@ -1,7 +1,7 @@
 package ahmed.praicticing.currencyconvertor.main
 
 import ahmed.praicticing.currencyconvertor.Util.Resources
-import ahmed.praicticing.currencyconvertor.data.models.CurrencyResponse
+import ahmed.praicticing.currencyconvertor.data2.CurrencyResponse
 
 interface MainRepository {
     suspend fun getRates(base:String) : Resources<CurrencyResponse>

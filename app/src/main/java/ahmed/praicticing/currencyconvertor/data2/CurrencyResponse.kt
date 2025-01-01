@@ -1,4 +1,4 @@
-package ahmed.praicticing.currencyconvertor.data.models
+package ahmed.praicticing.currencyconvertor.data2
 
 data class CurrencyResponse(
     val base: String,

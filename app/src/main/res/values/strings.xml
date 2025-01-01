@@ -4,7 +4,7 @@
     <string name="to">to</string>
     <string name="from">From</string>
     <string name="amount">amount</string>
-    <string name="convert">converte</string>
+    <string name="convert">convert</string>
     <string-array name="currency_codes">
         <item>CAD</item>
         <item>EUR</item>
@@ -38,5 +38,9 @@
         <item>GBP</item>
         <item>KRW</item>
         <item>MYR</item>
+        <item>EGP</item>
+        <item>SAR</item>
+        <item>AED</item>
+        <item>KWD</item>
     </string-array>
 </resources>
